@@ -32,6 +32,6 @@ if __name__=="__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("-m", type=str, default="s", help="Enter mode (Video or Playlist)")
     parser.add_argument("-u", type=str, help="Enter Video URL")
-    parser.add_argument("-d", type=str, default=r"C:\Users", help="Enter file destination")
+    parser.add_argument("-d", type=str, default=r"C:\Users\{Username}\Videos", help="Enter file destination")
     args=parser.parse_args()
     sys.stdout.write(str(download(args)))
