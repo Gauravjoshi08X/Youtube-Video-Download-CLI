@@ -11,7 +11,7 @@ A simple command-line interface (CLI) tool for downloading YouTube videos and pl
 * `pytubefix` library
 
 # Installation
-To use this script, make sure you have Python installed on your system. You can install the `pytubefix` library using pip:
+To use this script from any terminal window, you need to add it to your system's PATH. Make sure you have Python installed on your system. You can install the `pytubefix` library using pip:
 
 ```bash
 pip install pytubefix
