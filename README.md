@@ -25,7 +25,7 @@ python youtube_downloader.py -m <mode> -u <url> -d <destination>
 # Parameters
 * `-m`: Specify the mode of download. Use `m` for downloading a playlist and `s` for a single video. Default is `s`.
 * `-u`: The URL of the YouTube video or playlist you wish to download.
-* `-d`: The directory where you want the downloaded files to be saved. Default is `C:\Users`.
+* `-d`: The directory where you want the downloaded files to be saved. Default can be set.
 
 # Examples
 ## Download a Single Video
